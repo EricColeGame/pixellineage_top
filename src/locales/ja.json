@@ -1,1 +1,440 @@
-{}
+{
+  "site": {
+    "name": "PixelLineage Wiki",
+    "shortName": "PixelLineage",
+    "tagline": "攻略ガイド・キャラクター・最新アップデート",
+    "description": "PixelLineage Wikiへようこそ！キャラクターガイド、ゲームプレイのコツ、育成進行ルート、最新アップデートなど、ピクセルファンタジー冒険RPGを完全攻略するための役立つ情報をお届けします。",
+    "legalNotice": "非公式ファンWikiです。プレイヤーによって制作・運営されています。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマ切り替え",
+    "guide": "ガイド",
+    "progression": "進行・育成",
+    "characters": "キャラクター",
+    "mechanics": "システム",
+    "items": "アイテム",
+    "codes": "コード",
+    "social": "コミュニティ"
+  },
+  "home": {
+    "meta": {
+      "title": "PixelLineage Wiki - 攻略ガイド・キャラクター・最新情報",
+      "description": "PixelLineage Wikiへようこそ！キャラクターガイド、ゲームプレイのコツ、育成進行ルート、最新アップデートなど、ピクセルファンタジー冒険RPGを完全攻略するための情報が満載です。"
+    },
+    "hero": {
+      "eyebrow": "ピクセルアート・ファンタジー冒険RPG",
+      "title": "PixelLineage Wiki",
+      "description": "PixelLineageは、探索、キャラクター育成、白熱したバトル、そして懐かしいレトロな体験が楽しめるピクセルスタイルのファンタジー冒険RPGです。当Wikiでは、攻略ガイド、ゲームシステム解説、最新アップデート情報をお届けします。",
+      "stats": [
+        "総アクセス数",
+        "掲載ユニット数",
+        "有効コード",
+        "毎日更新"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "Robloxでプレイ",
+      "tertiaryCta": "有効コード一覧",
+      "videoLabel": "公式PV"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "ここから始める",
+      "title": "PixelLineageの旅を始めよう",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "安全な前哨基地を出る前に、基本ステータス、操作方法、基礎的な生存サイクルをマスターしましょう。"
+        },
+        {
+          "number": "2",
+          "title": "最速レベリング",
+          "description": "効率的なステータストレーニング手順、モブ狩りスポット、序盤の最適育成ルートを解説。"
+        },
+        {
+          "number": "3",
+          "title": "おすすめクラス選択",
+          "description": "パラディン、メイジ、アサシン、ウォーリアなどのプレイスタイルを比較し、理想のビルドを見つけましょう。"
+        },
+        {
+          "number": "4",
+          "title": "コード＆リロール",
+          "description": "有効なプロモコードを引き換えて、無料の特性リロール、ゴールド、経験値ブーストアイテムを入手。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "トレンド・注目記事",
+      "quickLinks": [
+        "初心者レベリング",
+        "最強クラス",
+        "装備ビルド",
+        "戦闘戦術"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者ガイド",
+          "description": "序盤のステータス配分、操作方法、生存の基本をマスター。",
+          "href": "/guide/pixellineage-beginner-guide"
+        },
+        {
+          "badge": "更新",
+          "title": "有効コード",
+          "description": "特性リロール、ゴールド、ブーストがもらえる最新プロモコード。",
+          "href": "/codes/pixellineage-codes"
+        },
+        {
+          "badge": "人気",
+          "title": "最強クラス・ビルド",
+          "description": "ノービスからウルトラマスターまでのティアランキングと育成ツリー。",
+          "href": "/characters/pixellineage-best-class"
+        },
+        {
+          "badge": "必須",
+          "title": "アイテム・装備",
+          "description": "武器、防具セット、ステータス補正、錬金ポーションの解説。",
+          "href": "/items/pixellineage-items"
+        },
+        {
+          "badge": "戦闘",
+          "title": "戦闘メカニクス",
+          "description": "スタミナ管理、姿勢崩し（体幹ブレイク）、パリィのタイミング。",
+          "href": "/mechanics/pixellineage-combat"
+        },
+        {
+          "badge": "育成",
+          "title": "育成進行ガイド",
+          "description": "ステップ別ステータス鍛錬、試練、パーマデス対策。",
+          "href": "/progression/pixellineage-progression"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "PixelLineageとは？",
+      "paragraphs": [
+        "PixelLineageは、クラシックなローグライク要素、緊張感あふれるパーマデス（恒久的な死）、そして血統（Lineage）による奥深い世代継承育成を融合させた、高難易度ピクセルアート・アクションRPGです。過酷なバイオームを探索し、容赦ない荒野の敵と戦い、継承された特性を受け継ぐ世代を超えた血統を築き上げましょう。",
+        "戦術的な決闘でのパリィやスタミナ管理の習得、エンチャント武器や重装甲プレートアーマーでの冒険者強化、あるいはノービスからウルトラマスターへの専門クラストランスファーなど、当Wikiではコミュニティ検証済みの包括的な攻略情報を提供します。"
+      ],
+      "stats": [
+        {
+          "label": "ジャンル",
+          "value": "ピクセルアクションRPG"
+        },
+        {
+          "label": "視点",
+          "value": "レトロ16ビット風"
+        },
+        {
+          "label": "育成",
+          "value": "血統継承システム"
+        },
+        {
+          "label": "戦闘",
+          "value": "スタミナ＆強靭度"
+        },
+        {
+          "label": "クラス階級",
+          "value": "ノービス〜ウルトラ"
+        },
+        {
+          "label": "コミュニティ",
+          "value": "アクティブWiki"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "PixelLineage Wikiを探索",
+      "description": "徹底攻略ガイド、検証済みアイテムデータベース、クラスティア表、戦闘メカニクス、公式コミュニティ情報をチェックしましょう。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "PixelLineage コード一覧",
+          "description": "PixelLineageの冒険者に役立つ、有効な引き換えコード、特性リロール、シルバートークン、入力方法の解説。",
+          "href": "/codes/pixellineage-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "リロール",
+              "detail": "無料の血統特性・タレントシャッフルトークンを獲得"
+            },
+            {
+              "label": "ブースト",
+              "detail": "経験値2倍スクロールとドロップ率上昇チャームを入手"
+            },
+            {
+              "label": "通貨",
+              "detail": "ボーナスゴールド袋とシルバーポーチを蓄積"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "PixelLineage 初心者ガイド",
+          "description": "ステータス割り振り、安全な生存ルーチン、序盤の戦闘のコツを網羅した入門ガイド。",
+          "href": "/guide/pixellineage-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "初期ステータスを生命力（Vitality）と耐久力（Endurance）に重点配分"
+            },
+            {
+              "label": "2",
+              "detail": "安全な前哨基地を出る前に基礎武器と防具を確保"
+            },
+            {
+              "label": "3",
+              "detail": "危険度の低い荒野のモブと戦い、スタミナと体勢の管理を練習"
+            },
+            {
+              "label": "4",
+              "detail": "獲得したシルバーを預け、先祖の特性を確保して育成を保護"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "PixelLineage クラス＆ビルド一覧",
+          "description": "PvEダンジョンとPvP決闘の両面から評価した、キャラクタークラスとビルドの総合ランキング。",
+          "href": "/characters/pixellineage-best-class",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "パラディン＆エレメンタリストメイジ — 圧倒的な自己回復と広範囲バースト"
+            },
+            {
+              "label": "A",
+              "detail": "シャドウアサシン＆マークスマンレンジャー — 高い単体火力と機動力"
+            },
+            {
+              "label": "B",
+              "detail": "ネクロマンサー＆クレリックプリースト — 特化型ペット使役と支援回復"
+            },
+            {
+              "label": "C",
+              "detail": "デュエリストスカーミッシャー — 精密パリィが要求される高難度クラス"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "PixelLineage アイテムガイド",
+          "description": "武器、防具分類、錬金術消費アイテムの重要ステータスをまとめた検索可能なデータベース。",
+          "href": "/items/pixellineage-items",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "武器",
+              "detail": "物理・魔力補正を持つ各種刀剣、魔導書、弓"
+            },
+            {
+              "label": "防具",
+              "detail": "防御力とスタミナ回復のバランスをとるプレート、レザー、ローブ"
+            },
+            {
+              "label": "ポーション",
+              "detail": "回復薬、マナエリクサー、各種錬金術の秘薬"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "PixelLineage 戦闘ガイド",
+          "description": "スタミナ維持、体勢崩し（ブレイク）、攻撃優先度など戦闘の基本を戦術的に解説。",
+          "href": "/mechanics/pixellineage-combat",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "スタミナ",
+              "detail": "体幹崩れを防ぐため、スタミナを20%以下に減らさないよう管理"
+            },
+            {
+              "label": "パリィ",
+              "detail": "敵の攻撃発生フレームに合わせて弾き、致命的な反撃を叩き込む"
+            },
+            {
+              "label": "間合い",
+              "detail": "武器のリーチと隙を利用して、敵の空振りを安全に咎める"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "PixelLineage 育成進行ガイド",
+          "description": "初心者スポーンからウルトラマスターまでの構造化された育成ロードマップとステータス訓練法。",
+          "href": "/progression/pixellineage-progression",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "スパーリングと移動アクションで基礎ステータスを鍛錬"
+            },
+            {
+              "label": "2",
+              "detail": "ステータス要件を満たし、ノービスクラスの基礎条件を達成"
+            },
+            {
+              "label": "3",
+              "detail": "専門トレーナーの試練に挑み、スーパークラスへの進階を果たす"
+            },
+            {
+              "label": "4",
+              "detail": "エンドゲーム試練を突破し、強力なウルトラクラスの能力を解放"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "PixelLineage アップデート情報",
+          "description": "PixelLineageの最新パッチノート、バランス調整、クラス改変、開発者アナウンスを追跡。",
+          "href": "/social/pixellineage-official",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "パッチ",
+              "detail": "公式バランス調整およびクラススキルの改変情報"
+            },
+            {
+              "label": "修正",
+              "detail": "サーバー安定性アップデート、不具合修正、戦闘バグ対応"
+            },
+            {
+              "label": "ロードマップ",
+              "detail": "今後のダンジョン拡張、新装備ティア、ワールドイベント計画"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "PixelLineage コミュニティ",
+          "description": "公式SNSリンク、開発者ハブ、コミュニティでの議論やトレード掲示板。",
+          "href": "/social/pixellineage-official",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Discord",
+              "detail": "公式Discordに参加して最新告知やパーティ募集をチェック"
+            },
+            {
+              "label": "Reddit",
+              "detail": "ビルド考察、クリップ動画共有、プレイヤー議論に参加"
+            },
+            {
+              "label": "セキュリティ",
+              "detail": "公式認証ガイドに従いアカウントとアイテムを保護"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "よくある質問 (FAQ)",
+      "description": "PixelLineageのゲームシステム、育成、生存に関するよくある質問にお答えします。",
+      "items": [
+        {
+          "question": "PixelLineageとはどのようなゲームですか？",
+          "answer": "PixelLineageは、クラシックなローグライクのパーマデス要素、スタミナ重視の戦闘、そして倒れた冒険者の特性を次世代に受け継ぐ血統育成システムを融合させた、ピクセルアート・ファンタジーアクションRPGです。"
+        },
+        {
+          "question": "PixelLineageの初心者が最初に取り組むべきことは何ですか？",
+          "answer": "初心者はまず生存性を高めるために生命力（Vitality）と耐久力（Endurance）にステータスを配分し、安全な前哨基地で基本装備を整え、危険な荒野へ出る前にスタミナ管理の感覚を掴むことが重要です。"
+        },
+        {
+          "question": "PixelLineageのキャラクター育成はどのように進みますか？",
+          "answer": "PixelLineageの育成は、スパーリング、疾走、魔法詠唱などの実際のアクションを通じて自然に向上します。ステータス基準を満たすことで、ノービスからウルトラマスターまでの上位クラスへ進階できます。"
+        },
+        {
+          "question": "有効なPixelLineageのコードはどのように引き換えますか？",
+          "answer": "ゲーム内の設定またはプロモメニュー（メニューホットキーまたは歯車アイコン）を開き、大文字小文字を正確に入力することで、特性リロール、ゴールド、経験値ブーストなどの特典を受け取ることができます。"
+        },
+        {
+          "question": "戦闘や死亡のペナルティはどれくらい厳しいですか？",
+          "answer": "戦闘はスタミナと体勢の管理が不可欠で、ガードを崩されると無防備になります。パーマデスにより現在のキャラクター進行はリセットされますが、解放された先祖の知識や特性は血統として次の冒険者に継承されます。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "PixelLineageを極める準備はできましたか？",
+      "description": "序盤の探索からエンドゲームの激闘まで、当コミュニティWikiが最新の完全無料ガイドであなたの冒険をサポートします。",
+      "primary": "初心者ガイド",
+      "secondary": "Robloxでプレイ"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Wiki ナビゲーション",
+    "activeCodes": "有効コード",
+    "updated": "更新日",
+    "viewAllCodes": "すべてのコードを見る",
+    "playOnRoblox": "Robloxでプレイ",
+    "inThisSection": "このセクションの内容",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "ヘルプが必要ですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "ガイドはまだありません。近日公開予定です！"
+  },
+  "footer": {
+    "aboutTitle": "PixelLineage Wiki",
+    "about": "PixelLineage Wikiは、新規プレイヤーからベテラン冒険者までを対象に、育成ルート、探索のコツ、必須知識をお届けするファン有志による独立攻略Wikiです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド一覧",
+    "legal": "法的情報",
+    "copyright": "© 2026 PixelLineage Wiki. ゲーム開発元とは提携していません。",
+    "description": "探索、キャラクター育成、バトル、レトロゲーム体験が楽しめるピクセルスタイルのファンタジー冒険RPG。",
+    "playGame": "Robloxでプレイ",
+    "officialDiscord": "公式 Discord",
+    "officialYoutube": "公式 YouTube",
+    "vvBuilder": "PixelLineage ビルダー",
+    "beginnerGuide": "初心者ガイド",
+    "raceGuides": "キャラクターガイド",
+    "bossGuides": "ボス攻略ガイド",
+    "buildGuide": "ビルドガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "characterGuides": "キャラクターガイド",
+    "progressionGuides": "育成進行ガイド",
+    "mechanicsGuides": "ゲームシステム解説"
+  },
+  "guide": {
+    "overviewTitle": "PixelLineage 攻略ガイド",
+    "overviewDescription": "PixelLineageをマスターするための包括的な初心者向けウォークスルー、プレイスタイルのコツ、戦略的アドバイス。"
+  },
+  "progression": {
+    "overviewTitle": "PixelLineage 進行・育成",
+    "overviewDescription": "キャラクター育成、レベリングルート、トーメントモードでの生存戦略、序盤攻略の詳細解説。"
+  },
+  "characters": {
+    "overviewTitle": "PixelLineage キャラクター＆クラス",
+    "overviewDescription": "キャラクターアーキタイプ、クラス専門化、戦士や魔法使いのプレイスタイル、最適化ビルドを網羅。"
+  },
+  "mechanics": {
+    "overviewTitle": "PixelLineage ゲームシステム",
+    "overviewDescription": "戦闘システム、特性（トレイト）、アクティブスキル、ゲームモード、生存メカニクスの詳細分析。"
+  },
+  "items": {
+    "overviewTitle": "PixelLineage アイテム＆装備",
+    "overviewDescription": "武器、防具セット、保管庫ストレージ、ドロップ品、貴重な戦利品の完全ガイド。"
+  },
+  "codes": {
+    "overviewTitle": "PixelLineage コード一覧",
+    "overviewDescription": "最新の有効プロモコード、無料報酬、コード引き換え手順の完全解説。"
+  },
+  "social": {
+    "overviewTitle": "PixelLineage コミュニティ＆SNS",
+    "overviewDescription": "公式リンク、Discordコミュニティチャンネル、Redditディスカッション、公式ハブまとめ。"
+  }
+}

@@ -1,1 +1,440 @@
-{}
+{
+  "site": {
+    "name": "PixelLineage Wiki",
+    "shortName": "PixelLineage",
+    "tagline": "Guías, personajes y actualizaciones",
+    "description": "Explora PixelLineage Wiki con guías de personajes, consejos de juego, información de progresión, actualizaciones y recursos útiles para dominar este juego de aventuras y fantasía pixel art.",
+    "legalNotice": "Wiki no oficial de fans. Creada por jugadores para jugadores."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "guide": "Guías",
+    "progression": "Progresión",
+    "characters": "Personajes",
+    "mechanics": "Mecánicas",
+    "items": "Objetos",
+    "codes": "Códigos",
+    "social": "Comunidad"
+  },
+  "home": {
+    "meta": {
+      "title": "PixelLineage Wiki - Guías, personajes y actualizaciones",
+      "description": "Explora PixelLineage Wiki con guías de personajes, consejos de juego, rutas de progresión, actualizaciones y recursos para este juego de aventuras en pixel art."
+    },
+    "hero": {
+      "eyebrow": "Juego de aventura y fantasía en Pixel Art",
+      "title": "PixelLineage Wiki",
+      "description": "PixelLineage es un juego de rol y aventuras estilo píxel con exploración, progresión, batallas y una experiencia retro nostálgica. Esta wiki ofrece guías, mecánicas de juego, actualizaciones y recursos esenciales para los jugadores.",
+      "stats": [
+        "Visitas totales",
+        "Unidades disponibles",
+        "Códigos activos",
+        "Actualizaciones diarias"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Jugar en Roblox",
+      "tertiaryCta": "Códigos activos",
+      "videoLabel": "Tráiler oficial"
+    },
+    "updates": {
+      "title": "Últimas actualizaciones",
+      "browse": "Explorar todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu viaje en PixelLineage",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Domina los atributos básicos, controles y rutinas de supervivencia antes de abandonar los puestos seguros."
+        },
+        {
+          "number": "2",
+          "title": "Subir de nivel rápido",
+          "description": "Descubre rutinas óptimas de entrenamiento, zonas de farmeo y las mejores rutas para el juego temprano."
+        },
+        {
+          "number": "3",
+          "title": "Mejor selección de clase",
+          "description": "Compara estilos de juego entre paladines, magos, asesinos y guerreros para elegir tu build ideal."
+        },
+        {
+          "number": "4",
+          "title": "Códigos y rerolls",
+          "description": "Canjea códigos promocionales activos para obtener tiradas de rasgos gratis, oro y potenciadores de EXP."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias actuales",
+      "quickLinks": [
+        "Leveo inicial",
+        "Mejores clases",
+        "Equipamiento",
+        "Tácticas de combate"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía para principiantes",
+          "description": "Domina la distribución de estadísticas iniciales, controles y supervivencia básica.",
+          "href": "/guide/pixellineage-beginner-guide"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Códigos activos",
+          "description": "Códigos funcionales para rerolls de talentos, oro y potenciadores.",
+          "href": "/codes/pixellineage-codes"
+        },
+        {
+          "badge": "Popular",
+          "title": "Mejores clases",
+          "description": "Tier list y rutas de build desde Novato hasta Maestría Ultra.",
+          "href": "/characters/pixellineage-best-class"
+        },
+        {
+          "badge": "Esencial",
+          "title": "Objetos y equipo",
+          "description": "Armas, conjuntos de armadura, escalados y pociones alquímicas.",
+          "href": "/items/pixellineage-items"
+        },
+        {
+          "badge": "Combate",
+          "title": "Mecánicas de combate",
+          "description": "Gestión de aguante, rotura de postura y tiempos de desvío (parry).",
+          "href": "/mechanics/pixellineage-combat"
+        },
+        {
+          "badge": "Progresión",
+          "title": "Guía de progresión",
+          "description": "Entrenamiento de estadísticas paso a paso, pruebas y gestión de muerte permanente.",
+          "href": "/progression/pixellineage-progression"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es PixelLineage?",
+      "paragraphs": [
+        "PixelLineage es un intenso RPG de acción en pixel art que combina mecánicas clásicas de roguelike, muerte permanente de alto riesgo y una profunda progresión de linaje donde las ventajas se transmiten entre generaciones. Adéntrate en biomas hostiles, combate criaturas implacables y forja dinastías con talentos heredados.",
+        "Tanto si buscas dominar los desvíos (parry) y el control de aguante en duelos tácticos, equipar a tu aventurero con armas encantadas y armaduras de placas pesadas, o ascender de rango de clase desde Novato hasta Maestría Ultra, nuestra wiki te proporciona recursos verificados por la comunidad."
+      ],
+      "stats": [
+        {
+          "label": "Género",
+          "value": "Pixel Action RPG"
+        },
+        {
+          "label": "Perspectiva",
+          "value": "Retro 16-Bit"
+        },
+        {
+          "label": "Progresión",
+          "value": "Sistema de linaje"
+        },
+        {
+          "label": "Combate",
+          "value": "Aguante y equilibrio"
+        },
+        {
+          "label": "Rangos de clase",
+          "value": "Novato a Ultra"
+        },
+        {
+          "label": "Comunidad",
+          "value": "Wiki activa"
+        }
+      ],
+      "cta": "Explorar todas las guías"
+    },
+    "explore": {
+      "title": "Explora PixelLineage Wiki",
+      "description": "Encuentra guías exhaustivas, bases de datos de objetos verificadas, listas de clases por niveles, mecánicas de combate y canales oficiales de la comunidad.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Códigos de PixelLineage",
+          "description": "Códigos de canje activos, tiradas de rasgos, bolsas de plata y métodos de canje comprobados para aventureros.",
+          "href": "/codes/pixellineage-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "REROLL",
+              "detail": "Consigue fichas gratis para cambiar talentos y rasgos de linaje"
+            },
+            {
+              "label": "BOOST",
+              "detail": "Recibe pergaminos de 2x EXP y talismanes de tasa de botín"
+            },
+            {
+              "label": "MONEDA",
+              "detail": "Acumula bolsas adicionales de oro y plata de bonificación"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guía para principiantes de PixelLineage",
+          "description": "Guía básica esencial sobre asignación de atributos, rutinas de supervivencia seguras y consejos de combate inicial.",
+          "href": "/guide/pixellineage-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Asigna atributos iniciales deliberadamente a Vitalidad y Resistencia"
+            },
+            {
+              "label": "2",
+              "detail": "Consigue armas y armaduras básicas antes de salir de los puestos seguros"
+            },
+            {
+              "label": "3",
+              "detail": "Enfréntate a monstruos de bajo peligro para entrenar aguante y equilibrio"
+            },
+            {
+              "label": "4",
+              "detail": "Guarda la plata obtenida y asegura rasgos ancestrales para proteger tu progreso"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Clases y builds de PixelLineage",
+          "description": "Clasificación completa de clases de personajes y arquetipos de builds evaluados en mazmorras PvE y duelos PvP.",
+          "href": "/characters/pixellineage-best-class",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Paladín y Mago elementalista — Gran autosuficiencia y daño en área"
+            },
+            {
+              "label": "A",
+              "detail": "Asesino sombrío y Tirador montaraz — Daño a un objetivo y movilidad alta"
+            },
+            {
+              "label": "B",
+              "detail": "Nigromante y Clérigo — Utilidad de esbirros especializados y curación"
+            },
+            {
+              "label": "C",
+              "detail": "Duelista hostigador — Alta complejidad que exige desvíos precisos"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guía de objetos de PixelLineage",
+          "description": "Directorio de armas, tipos de armadura defensiva y consumibles alquímicos con sus estadísticas clave.",
+          "href": "/items/pixellineage-items",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "ARMAS",
+              "detail": "Espadas, tomos y arcos con escalado de daño físico y arcano"
+            },
+            {
+              "label": "ARMADURA",
+              "detail": "Sets de placas, cuero y tela que equilibran defensa y regeneración"
+            },
+            {
+              "label": "POCIONES",
+              "detail": "Ungüentos curativos, elixires de maná y pócimas alquímicas reconstituyentes"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guía de combate de PixelLineage",
+          "description": "Desglose táctico de los fundamentos de combate: gestión del aguante, desequilibrio y prioridad de ataque.",
+          "href": "/mechanics/pixellineage-combat",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Aguante",
+              "detail": "Mantén el aguante por encima del 20% para evitar el aturdimiento por rotura"
+            },
+            {
+              "label": "Desvío",
+              "detail": "Desvía ataques durante los fotogramas de inicio para asestar castigos críticos"
+            },
+            {
+              "label": "Espaciado",
+              "detail": "Aprovecha el alcance de tu arma y los tiempos de recuperación para contraatacar"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guía de progresión de PixelLineage",
+          "description": "Ruta estructurada de avance desde Novato hasta Maestría Ultra con ejercicios prácticos de estadísticas.",
+          "href": "/progression/pixellineage-progression",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Acondiciona tus estadísticas básicas mediante combate de práctica y movimiento"
+            },
+            {
+              "label": "2",
+              "detail": "Alcanza los mínimos de estadísticas y supera los requisitos de clase Novato"
+            },
+            {
+              "label": "3",
+              "detail": "Realiza pruebas de entrenadores especializados para ascender a Superclase"
+            },
+            {
+              "label": "4",
+              "detail": "Supera las pruebas finales para desbloquear el poder de la Clase Ultra"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Actualizaciones de PixelLineage",
+          "description": "Sigue los últimos parches, ajustes de equilibrio, rediseños de clases y anuncios oficiales.",
+          "href": "/social/pixellineage-official",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Parches",
+              "detail": "Ajustes oficiales de balance y revisiones de habilidades de clase"
+            },
+            {
+              "label": "Hotfixes",
+              "detail": "Actualizaciones de estabilidad del servidor y resolución de fallos"
+            },
+            {
+              "label": "Hoja de ruta",
+              "detail": "Próximas expansiones de mazmorras, nuevos tiers de equipo y eventos"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Comunidad de PixelLineage",
+          "description": "Enlaces oficiales verificados, canales de desarrolladores, debates comunitarios y comercio.",
+          "href": "/social/pixellineage-official",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Discord",
+              "detail": "Únete a la comunidad oficial para avisos y búsqueda de escuadrones"
+            },
+            {
+              "label": "Reddit",
+              "detail": "Participa en debates sobre builds, comparte clips e interactúa con jugadores"
+            },
+            {
+              "label": "Seguridad",
+              "detail": "Sigue las normas oficiales de verificación para proteger tu cuenta y objetos"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes (FAQ)",
+      "description": "Respuestas rápidas a dudas comunes sobre las mecánicas, la progresión y la supervivencia en PixelLineage.",
+      "items": [
+        {
+          "question": "¿Qué es PixelLineage y qué tipo de juego es?",
+          "answer": "PixelLineage es un RPG de acción y fantasía en pixel art que combina muerte permanente roguelike, combate basado en aguante y progresión ancestral donde las ventajas se transmiten a futuras generaciones."
+        },
+        {
+          "question": "¿En qué deben centrarse los principiantes al empezar en PixelLineage?",
+          "answer": "Los principiantes deben priorizar la Vitalidad y la Resistencia para sobrevivir, conseguir equipo básico en asentamientos seguros y aprender a controlar el aguante antes de luchar contra monstruos peligrosos."
+        },
+        {
+          "question": "¿Cómo funciona la progresión de los personajes en PixelLineage?",
+          "answer": "La progresión se desarrolla orgánicamente a través de acciones físicas como practicar combates, correr y lanzar hechizos. Al alcanzar ciertos umbrales de estadísticas, puedes ascender desde Novato hasta Maestría Ultra."
+        },
+        {
+          "question": "¿Cómo canjeo los códigos activos de PixelLineage?",
+          "answer": "Abre el menú de configuración o promociones en el juego mediante el atajo o icono de engranaje, escribe el código respetando mayúsculas y minúsculas, y reclama recompensas como rerolls de talentos, oro y potenciadores de EXP."
+        },
+        {
+          "question": "¿Qué tan severos son el combate y la muerte en PixelLineage?",
+          "answer": "El combate requiere una estricta gestión del aguante y el equilibrio, ya que una rotura de guardia te deja indefenso. Aunque la muerte permanente reinicia al personaje activo, tu linaje conserva los conocimientos y rasgos ancestrales desbloqueados."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para dominar PixelLineage?",
+      "description": "Desde tus primeros pasos en la exploración hasta los desafíos más difíciles del endgame, nuestra wiki comunitaria te ofrece guías gratuitas y actualizadas.",
+      "primary": "Guía para principiantes",
+      "secondary": "Jugar en Roblox"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la Wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Tabla de contenidos",
+    "nextSteps": "Próximos pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas recomendadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!"
+  },
+  "footer": {
+    "aboutTitle": "PixelLineage Wiki",
+    "about": "PixelLineage Wiki es un portal independiente creado por la comunidad con rutas de progresión, consejos de exploración y conocimientos esenciales para principiantes y veteranos.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "© 2026 PixelLineage Wiki. No afiliado con los desarrolladores del juego.",
+    "description": "RPG de aventura y fantasía en píxel art con exploración, progresión, batallas y una experiencia nostálgica retro.",
+    "playGame": "Jugar en Roblox",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "YouTube oficial",
+    "vvBuilder": "PixelLineage Builder",
+    "beginnerGuide": "Guía para principiantes",
+    "raceGuides": "Guías de personajes",
+    "bossGuides": "Guías de jefes",
+    "buildGuide": "Guía de builds",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "characterGuides": "Guías de personajes",
+    "progressionGuides": "Guías de progresión",
+    "mechanicsGuides": "Mecánicas de juego"
+  },
+  "guide": {
+    "overviewTitle": "Guías de PixelLineage",
+    "overviewDescription": "Tutoriales exhaustivos para principiantes, consejos de jugabilidad y asesoramiento estratégico para dominar PixelLineage."
+  },
+  "progression": {
+    "overviewTitle": "Progresión en PixelLineage",
+    "overviewDescription": "Guías detalladas sobre progresión de personajes, rutas de leveo, supervivencia en modo Tormento y consejos iniciales."
+  },
+  "characters": {
+    "overviewTitle": "Personajes y clases de PixelLineage",
+    "overviewDescription": "Explora arquetipos de personajes, especializaciones de clase, estilos de juego para guerreros y magos, y builds optimizadas."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de PixelLineage",
+    "overviewDescription": "Análisis en profundidad de los sistemas de combate, rasgos, habilidades activas, modos de juego y supervivencia."
+  },
+  "items": {
+    "overviewTitle": "Objetos y equipo de PixelLineage",
+    "overviewDescription": "Guía completa de armas, conjuntos de armadura, almacenamiento, botín de enemigos y objetos valiosos."
+  },
+  "codes": {
+    "overviewTitle": "Códigos de PixelLineage",
+    "overviewDescription": "Últimos códigos promocionales funcionales, recompensas gratuitas e instrucciones paso a paso para canjearlos."
+  },
+  "social": {
+    "overviewTitle": "Comunidad y redes de PixelLineage",
+    "overviewDescription": "Enlaces oficiales, canales de Discord, debates en Reddit y puntos de encuentro social de PixelLineage."
+  }
+}
