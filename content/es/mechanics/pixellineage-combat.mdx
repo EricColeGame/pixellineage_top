@@ -1,0 +1,138 @@
+export const metadata = {
+  title: "Dominando el combate de PixelLineage: Guía de mecánicas profundas, JcJ y estrategia",
+  description: "Domina el combate de PixelLineage con nuestro desglose de tiempos de desvío, cancelaciones de animación, escalado de armas, ruptura de postura y tácticas JcJ/JcE.",
+  category: "mechanics",
+  date: "2026-10-09",
+};
+
+Sobrevivir a enfrentamientos de alto riesgo exige una disciplina excepcional, consciencia de los fotogramas y cálculos tácticos en fracciones de segundo. En este implacable entorno retro, comprender cada matiz del **combate de PixelLineage** es el factor determinante entre reclamar un botín legendario o sufrir una derrota devastadora. Ya sea que te adentres en una mazmorra hostil o te enfrentes a duelistas experimentados en arenas de mundo abierto, destacar en el **combate de PixelLineage** requiere aprender cómo interactúan bajo la superficie el aplomo, la resistencia, las cajas de impacto (hitboxes) y los fotogramas activos de animación.
+
+Para alcanzar una maestría constante, los jugadores deben ir más allá de simplemente machacar botones. Esta completa guía desglosa las mecánicas centrales del sistema, evalúa los arquetipos de armas, analiza los tiempos de recuperación defensiva y proporciona tácticas de combate prácticas verificadas a través de la experiencia de jugadores y reportes de la comunidad.
+
+---
+
+## Fundamentos básicos de las mecánicas de combate de PixelLineage
+
+En su núcleo, el combate del juego se rige por un sistema de prioridades rigurosamente calibrado. Cada golpe, lanzamiento de hechizo y rodamiento consume resistencia, al tiempo que interactúa directamente con el umbral oculto de aplomo tanto del atacante como del defensor. Comprender estas mecánicas fundamentales garantiza que nunca te comprometas con una cadena de ataques insegura ni agotes tu barra de resistencia en un momento letal.
+
+La prioridad de acción dictamina qué ataque se registra primero cuando dos golpes coinciden. Las armas pesadas cuentan con fotogramas integrados de "hiperarmadura" que ignoran los ataques ligeros entrantes una vez activas, mientras que las armas rápidas dependen de fotogramas de inicio veloces para interrumpir animaciones lentas. Equilibrar tu postura y resistencia determina cuánto tiempo puedes sostener enfrentamientos activos sin sufrir una ruptura de guardia.
+
+```
+Entrada de ataque -> Fotogramas de inicio (Vulnerable) -> Fotogramas activos (Hitbox) -> Ventana de recuperación / cancelación
+```
+
+La gestión de la resistencia opera como el mecanismo definitivo de control del ritmo. Si tu resistencia cae a cero mientras absorbes un golpe, tu postura se rompe al instante. Una postura rota bloquea a tu personaje en una prolongada animación de aturdimiento, exponiéndote al daño de castigo crítico de jugadores rivales o enemigos de élite.
+
+| Atributo central de combate | Función principal | Impacto táctico | Umbral de peligro |
+| :--- | :--- | :--- | :--- |
+| **Economía de resistencia** | Impulsa ataques, esquivas y bloqueos | Su agotamiento causa una recuperación retrasada y movimientos lentos | Por debajo del 20% restante |
+| **Aplomo / Postura** | Determina la resistencia al aturdimiento y desestabilización | Su agotamiento causa una ruptura total de postura y vulnerabilidad crítica | 0 de aplomo (aturdimiento inmediato) |
+| **Hitboxes activos** | Define la zona física que inflige daño en los golpes | Dicta el espaciado, los puntos óptimos y el castigo de fallos | Los ataques desalineados dejan flancos expuestos |
+| **Fotogramas de inicio** | El retraso entre la acción de ataque y la entrega del daño | Los inicios más lentos exigen lecturas predictivas; los rápidos permiten reaccionar | Vulnerable a interrupciones |
+| **Hiperarmadura** | Inmunidad temporal al aturdimiento durante los arcos de golpe | Permite intercambiar daño de manera efectiva frente a armas más ligeras | Recibir daño excesivo durante el intercambio |
+
+Gestionar tu barra de aplomo es especialmente crítico en escaramuzas contra múltiples objetivos. Mientras que enfrentarse a objetivos individuales permite una regeneración constante de la postura durante las pausas, los combates grupales erosionarán rápidamente tus defensas si permaneces dentro de barridos de ataque.
+
+---
+
+## Arquetipos de armas y escalado en combate
+
+Seleccionar el armamento ideal define la forma en que abordas cada duelo. En el **combate de PixelLineage**, las clases de armas difieren significativamente no solo en el daño bruto producido, sino también en el alcance, el retardo de recuperación, los ángulos de barrido y las curvas de escalado. Elegir un arma que complemente tu estilo de juego personal y tu distribución de atributos es esencial para controlar el ritmo del combate.
+
+Las armas ligeras, como dagas y espadas cortas, destacan en tácticas rápidas de golpear y huir. Imponen penalizaciones mínimas de resistencia, otorgando a los jugadores máxima movilidad para pivotar alrededor de los oponentes. Sin embargo, su menor daño base requiere una ofensiva sostenida y combinaciones de combos fiables para superar a enemigos fuertemente blindados.
+
+El armamento pesado, que incluye espadones y martillos de guerra pesados, gira en torno a la negación espacial y los intercambios decisivos. Los reportes de la comunidad destacan que, si bien fallar con un arma pesada conlleva severas penalizaciones de recuperación, asestar un golpe certero a menudo destroza el aplomo del oponente en tan solo dos o tres impactos. Las armas de asta y lanzas de nivel intermedio acortan distancias al proporcionar un alcance frontal inigualable, convirtiéndose en herramientas de primer nivel para mantener la distancia frente a atacantes agresivos con embestidas.
+
+| Clase de arma | Velocidad de ataque típica | Daño al aplomo infligido | Alcance óptimo | Estilo de juego recomendado |
+| :--- | :--- | :--- | :--- | :--- |
+| **Dagas y estoques** | Muy rápida | Bajo | Corto / A quemarropa | Búsqueda de flancos, rápida acumulación de estados, presión de interrupción |
+| **Espadas rectas** | Moderada / Rápida | Medio | Medio-Corto | Equilibrio adaptable, contraataques defensivos, caza de esquivas |
+| **Lanzas y alabardas** | Moderada | Medio-Alto | Largo (Lineal) | Castigo de fallos, defensa cerrada, control de cuellos de botella en pasillos |
+| **Espadones** | Lenta | Muy alto | Arco amplio (Medio) | Intercambio con hiperarmadura, limpieza de grupos, ruptura de guardia |
+| **Martillos de guerra** | Muy lenta | Extremo | Corto-Medio | Configuraciones de colapso total de postura, aplastamiento con señuelo y castigo |
+
+Las opciones híbridas de magia y a distancia introducen capas adicionales de perturbación. Las herramientas de lanzamiento exigen un posicionamiento preciso porque los conjuros de hechizos generalmente carecen de hiperarmadura, lo que hace que los lanzadores sean vulnerables a estilos de juego agresivos y directos. Sin embargo, zonificar a un rival con trampas de proyectiles persistentes lo obliga a seguir trayectorias de esquiva predecibles, creando oportunidades sencillas para acortar la distancia y ejecutar un castigo cuerpo a cuerpo.
+
+---
+
+## Maestría defensiva: Desvíos, esquivas y recuperación de bloqueo
+
+La defensa nunca es pasiva; es la preparación ofensiva más letal de tu arsenal. El repertorio defensivo principal se compone del bloqueo estándar, el desvío activo (parry) y las esquivas rodando. Reconocer cuándo utilizar cada herramienta defensiva contra diferentes trayectorias de ataque es un rasgo distintivo del rendimiento de alto nivel en el **combate de PixelLineage**.
+
+El bloqueo estándar mitiga la mayor parte del daño físico entrante a expensas de la resistencia. Mantener el bloqueo de forma continua es un error común de novato que conduce directamente a rupturas de guardia, ya que la regeneración de resistencia se detiene mientras la postura de guardia está activa. En cambio, los jugadores experimentados utilizan el "bloqueo a toques" o intermitente: soltando brevemente la guardia entre los golpes de ataque enemigos para reiniciar la recuperación de resistencia.
+
+```
+Ataque enemigo -> Ventana activa de desvío (0.15s - 0.25s) -> Rechazo exitoso -> Oportunidad de contraataque crítico
+```
+
+El desvío activo exige una sincronización precisa de fotogramas, pero ofrece la mayor recompensa táctica. Cuando se ejecuta con precisión durante los fotogramas de ataque activo de un enemigo, el desvío anula por completo el daño entrante, drena una porción masiva de la postura del rival y genera una ventana momentánea para el contraataque. Las esquivas rodando proporcionan breves fotogramas de invulnerabilidad (i-frames), lo que te permite atravesar amplios barridos horizontales o escapar de hechizos con áreas de efecto persistentes.
+
+| Acción defensiva | Coste de resistencia | Ventana de invulnerabilidad / Desvío | Consecuencia del fallo | Caso de uso ideal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Desvío perfecto** | Mínimo | Muy ajustada (~10-15 fotogramas) | Absorción completa del daño sin bloqueo | Ataques pesados telegrafiados y ataques en salto predecibles |
+| **Bloqueo estándar** | Proporcional al impacto | Continuo mientras se mantenga | Severo drenaje de resistencia y ruptura de guardia | Ráfagas rápidas de múltiples impactos donde el tiempo de desvío es inconsistente |
+| **Esquiva rodando** | Moderado | Moderada (~12-18 fotogramas) | Vulnerable durante el retardo de recuperación del giro | Escapar de hechizos de área de efecto y flanquear estocadas lentas |
+| **Paso atrás / Salto** | Bajo | Muy corta (~6-8 fotogramas) | Vulnerable si el oponente tiene gran alcance | Rápido reajuste de distancia frente a cadenas de dagas de corto alcance |
+
+Dominar los fotogramas de recuperación de cada acción defensiva evita que seas víctima de la caza de esquivas (roll-caught). Los oponentes experimentados retrasarán intencionalmente su segundo golpe para impactarte justo cuando expiren los fotogramas de invulnerabilidad de tu rodamiento. Aprender a variar la dirección de tus esquivas e intercalar pasos hacia atrás mantiene tus movimientos defensivos impredecibles.
+
+---
+
+## Técnicas avanzadas de combate: Cancelación de animaciones y espaciado
+
+Una vez que comprendes las mecánicas básicas, el éxito competitivo radica en una ejecución avanzada. Integrar la cancelación de animaciones y un juego de pies disciplinado transforma patrones de ataque predecibles en una presión ofensiva engañosa y letal. En el **combate avanzado de PixelLineage**, posicionarte justo fuera del alcance máximo de un oponente —conocido a menudo como "footsies"— te permite provocar golpes en falso sin gastar resistencia en esquivas defensivas.
+
+La cancelación de animaciones permite a los jugadores acortar el retardo final de recuperación de un ataque mediante comandos específicos como fintas, pasos rápidos o cambios de arma. Al interrumpir la animación de recuperación, puedes regresar inmediatamente al estado neutral, pasar a una postura de desvío o encadenar directamente un golpe inesperado con la mano secundaria.
+
+Para explorar filosofías de diseño más amplias sobre las cajas de impacto de acción, la dinámica de recuperación y las ventajas de fotogramas, revisar la [cobertura de mecánicas de juego en PC Gamer](https://www.pcgamer.com) ofrece una valiosa perspectiva sobre cómo los desarrolladores estructuran los equilibrios del combate en tiempo real.
+
+| Maniobra avanzada | Patrón de ejecución de comandos | Objetivo táctico principal | Nivel de riesgo |
+| :--- | :--- | :--- | :--- |
+| **Castigo de fallo** | Espaciarse fuera del alcance -> Paso adelante -> Golpe pesado | Castigar el golpe fallido del oponente durante sus fotogramas de recuperación | Bajo (si el espaciado es preciso) |
+| **Cancelación con finta** | Inicio del ataque -> Toque rápido de guardia/finta -> Retorno a neutral | Provocar un intento prematuro de desvío en un defensor reactivo | Medio (susceptible a ataques con hiperarmadura) |
+| **Caza de esquivas** | Rastrear el rodamiento enemigo -> Retrasar el golpe 0.3s -> Ejecutar ataque | Golpear al oponente justo cuando terminan los i-frames de su esquiva | Medio (requiere lectura precisa de tiempos) |
+| **Flanqueo pivotante** | Rodear la espalda al esprintar durante un golpe pesado -> Golpe por la espalda | Evadir escudos frontales e infligir daño crítico adicional por la espalda | Alto (expone tu flanco si el rival gira) |
+| **Encadenamiento de aturdimiento** | Golpe ligero -> Micropausa -> Golpe ligero (reiniciar pérdida de aplomo) | Evitar que el oponente inicie una esquiva de escape entre golpes | Alto (parable en ritmos predecibles) |
+
+Las pruebas de la comunidad indican que las fintas son especialmente destructivas contra jugadores dependientes del desvío. Cuando acostumbras a un adversario a esperar golpes inmediatos, amagar con el inicio de un ataque hace que lance un desvío al aire. Esto lo deja atrapado en fotogramas de recuperación, abriendo una ventana libre para tu ataque cargado más poderoso.
+
+---
+
+## Enfoques estratégicos: Encuentros contra jefes JcE frente a duelos JcJ de alto riesgo
+
+Adaptar tu mentalidad táctica entre jefes controlados por la IA y duelos jugador contra jugador es fundamental. Aunque el motor subyacente es idéntico, las estrategias psicológicas y mecánicas divergen drásticamente entre ambos entornos.
+
+En las batallas contra jefes JcE, la consistencia y el reconocimiento de patrones son primordiales. Los jefes poseen enormes reservas de salud, hiperarmadura que rara vez se quiebra y señales visuales distintivas. Ganar encuentros JcE requiere una paciencia disciplinada: memorizar las indicaciones de ataque, esquivar hacia el lado desarmado del jefe para explotar puntos ciegos y resistir la tentación de comprometerse con cadenas de combos codiciosas.
+
+```
+Mentalidad JcE: Identificación de señales -> Posicionamiento -> Fase de castigo -> Restablecimiento defensivo
+Mentalidad JcJ: Espaciado ('footsies') -> Acondicionamiento y señuelos -> Caza de esquivas -> Presión a la postura
+```
+
+Por el contrario, los duelos competitivos JcJ son juegos mentales centrados en el condicionamiento y el desgaste de recursos. Los oponentes humanos se adaptan a tu ritmo. Si siempre inicias con un ataque ligero en carrera, un rival hábil lo desviará al segundo intento. Lograr la victoria en JcJ exige alterar constantemente los tiempos de tus ataques, explotar la caza de esquivas y aplicar presión agresiva cuando la resistencia del oponente desciende a niveles peligrosos.
+
+| Factor de combate | Encuentros contra jefes JcE | Duelos competitivos JcJ |
+| :--- | :--- | :--- |
+| **Previsibilidad del oponente** | Altamente predecible; señales programadas y fases por umbrales | Impredecible; depende del condicionamiento humano y señuelos |
+| **Impacto del daño de aplomo** | Los aturdimientos son raros y suelen requerir golpes dirigidos a puntos débiles | Las rupturas de aplomo ocurren rápido y derivan en castigos decisivos |
+| **Prioridad de espaciado** | Esquivar amplias zonas de área de efecto y peligros del entorno | Microespaciado para provocar fallos y castigar fotogramas de recuperación |
+| **Rasgos óptimos de configuración** | Alto DPS sostenido, explotación elemental, atributos de supervivencia | Daño por ráfaga, inicio rápido de arma, alta regeneración de resistencia |
+| **Riesgo de exceso de confianza** | Recibir daño masivo de un solo golpe del jefe | Ser víctima de un desvío o caza de esquiva en un combo ineludible |
+
+En escaramuzas de mundo abierto donde colisionan monstruos JcE y jugadores hostiles, prioriza la consciencia espacial por encima de todo. Enfrentarse a un jugador mientras provocas a monstruos de la mazmorra divide tu atención, haciendo prácticamente imposible rastrear tanto las fintas del jugador como las señales del monstruo simultáneamente. Reubícate siempre hacia terreno despejado antes de comprometerte en un duelo.
+
+---
+
+## Preguntas frecuentes sobre el combate de PixelLineage
+
+### ¿Cuál es la forma más eficaz de mejorar el tiempo de desvío en el combate de PixelLineage?
+El mejor enfoque es practicar contra tipos de enemigos lentos y telegrafiados antes de entrar en las arenas JcJ. Enfoca tu mirada en la mano con la que el oponente sostiene el arma en lugar de en la punta del arma; el momento en que el brazo inicia su arco de golpe frontal suele ser el punto óptimo para ejecutar el desvío. Los jugadores de la comunidad recomiendan grabar repeticiones de duelos para analizar si tus acciones se ejecutan demasiado pronto durante la fase de inicio o demasiado tarde durante el fotograma de impacto activo.
+
+### ¿Cómo contrarresto a oponentes que mantienen el escudo levantado constantemente?
+Refugiarse tras un escudo deja a los jugadores vulnerables a rupturas de postura. Utiliza armas pesadas con alto daño de aplomo, como martillos de guerra o espadones, para agotar rápidamente su barra de resistencia mediante golpes continuos. De forma alternativa, recurre a maniobras de paso rápido para sortear su guardia lateral o incorpora habilidades de patada/empujón que evitan los bloqueos direccionales estándar y provocan un aturdimiento inmediato.
+
+### ¿Por qué mis ataques siguen siendo interrumpidos por armas más ligeras en el combate de PixelLineage?
+Si las armas más rápidas interrumpen tus ataques constantemente, es probable que estés iniciando los golpes sin hiperarmadura activa o calculando mal tus fotogramas de inicio. Las armas ligeras tienen datos de fotogramas iniciales más veloces, lo que les permite golpearte antes de que la caja de impacto de tu ataque se vuelva activa. Para contrarrestar esto, mantén la distancia fuera de su alcance inicial para provocar un fallo, o retrasa tus ataques pesados hasta que puedas intercambiar golpes mientras los fotogramas de hiperarmadura estén activos.
+
+### ¿Qué importancia tiene el peso del equipo en la gestión de la resistencia durante combates largos?
+El peso del equipo afecta directamente a la tasa de regeneración de tu resistencia y a la distancia de tus esquivas rodando. Llevar una carga pesada reduce la efectividad de tus fotogramas de invulnerabilidad y prolonga los retrasos en la recuperación de resistencia, lo que facilita que las configuraciones agresivas de presión constante te atrapen en bucles de agotamiento de resistencia. Se recomienda encarecidamente mantener una carga de equipo media o ligera en duelos donde la reposición móvil sea esencial.
