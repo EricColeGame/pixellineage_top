@@ -6,7 +6,18 @@
     "description": "Explore PixelLineage Wiki with character guides, gameplay tips, progression information, updates, and useful resources to help players master this pixel fantasy adventure game.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
-  "nav": {},
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "toggleTheme": "Toggle Theme",
+    "guide": "Guide",
+    "progression": "Progression",
+    "characters": "Characters",
+    "mechanics": "Mechanics",
+    "items": "Items",
+    "codes": "Codes",
+    "social": "Social"
+  },
   "home": {
     "meta": {
       "title": "PixelLineage Wiki - Guides, Characters & Updates",
@@ -398,11 +409,32 @@
     "progressionGuides": "Progression Guides",
     "mechanicsGuides": "Game Mechanics"
   },
-  "guide": {},
-  "progression": {},
-  "characters": {},
-  "mechanics": {},
-  "items": {},
-  "codes": {},
-  "social": {}
+  "guide": {
+    "overviewTitle": "PixelLineage Guides",
+    "overviewDescription": "Comprehensive beginner walkthroughs, gameplay tips, and strategic advice for mastering PixelLineage."
+  },
+  "progression": {
+    "overviewTitle": "PixelLineage Progression",
+    "overviewDescription": "Detailed guides on character progression, leveling routes, Torment mode survival, and early-game tips for PixelLineage."
+  },
+  "characters": {
+    "overviewTitle": "PixelLineage Characters & Classes",
+    "overviewDescription": "Explore character archetypes, class specializations, warrior and mage playstyles, and optimized builds in PixelLineage."
+  },
+  "mechanics": {
+    "overviewTitle": "PixelLineage Mechanics",
+    "overviewDescription": "In-depth breakdowns of combat systems, traits, active skills, game modes, and survival mechanics in PixelLineage."
+  },
+  "items": {
+    "overviewTitle": "PixelLineage Items & Equipment",
+    "overviewDescription": "Complete guide to weapons, gear sets, vault storage, enemy drops, and valuable loot in PixelLineage."
+  },
+  "codes": {
+    "overviewTitle": "PixelLineage Codes",
+    "overviewDescription": "Latest working redemption codes, free rewards, and step-by-step instructions for redeeming codes in PixelLineage."
+  },
+  "social": {
+    "overviewTitle": "PixelLineage Community & Social",
+    "overviewDescription": "Official links, Discord community channels, Reddit discussions, and social hubs for PixelLineage."
+  }
 }
