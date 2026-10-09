@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Master core attributes, controls, and baseline survival loops before stepping out of safe outposts."
         },
         {
           "number": "2",
           "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "description": "Discover optimal stat training routines, mob farming spots, and early progression routes."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Best Class Selection",
+          "description": "Compare playstyles across Paladins, Mages, Assassins, and Warriors to pick the ideal build."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in PixelLineage."
+          "title": "Codes & Rerolls",
+          "description": "Redeem working promo codes for free trait rerolls, gold reserves, and EXP boost items."
         }
       ]
     },
@@ -66,237 +66,265 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Novice Leveling",
+        "Best Classes",
+        "Item Loadouts",
+        "Combat Tactics"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Master early attributes, controls, and survival basics.",
+          "href": "/guide/pixellineage-beginner-guide"
         },
         {
           "badge": "Updated",
           "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "description": "Working promo codes for trait rerolls, gold, and boosts.",
+          "href": "/codes/pixellineage-codes"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Best Classes",
+          "description": "Tier rankings and build paths from Novice to Ultra Mastery.",
+          "href": "/characters/pixellineage-best-class"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Essential",
+          "title": "Items & Gear",
+          "description": "Weapons, armor sets, stat scaling, and alchemical elixirs.",
+          "href": "/items/pixellineage-items"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "Combat",
+          "title": "Combat Mechanics",
+          "description": "Stamina management, posture breaking, and parry timings.",
+          "href": "/mechanics/pixellineage-combat"
         },
         {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Progression",
+          "title": "Progression Guide",
+          "description": "Step-by-step stat training, trials, and permadeath management.",
+          "href": "/progression/pixellineage-progression"
         }
       ]
     },
     "aboutGame": {
       "title": "What is PixelLineage?",
       "paragraphs": [
-        "PixelLineage is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "PixelLineage is an intense pixel-art action RPG combining classic roguelike mechanics, high-stakes permadeath, and deep lineage-based character progression. Venture into hostile biomes, battle unforgiving wilderness encounters, and forge generational bloodlines with inherited perks.",
+        "Whether you are mastering parry timing and stamina management in tactical duels, outfitting your adventurer with enchanted weapons and heavy plate armor, or advancing through specialized class tiers from Novice to Ultra Mastery, our wiki delivers comprehensive community-verified resources."
       ],
       "stats": [
         {
-          "label": "Developer",
-          "value": "Midnight Continent"
-        },
-        {
-          "label": "Platform",
-          "value": "Roblox"
-        },
-        {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Pixel Action RPG"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Perspective",
+          "value": "Retro 16-Bit"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Progression",
+          "value": "Lineage System"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Combat",
+          "value": "Stamina & Poise"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Class Tiers",
+          "value": "Novice to Ultra"
+        },
+        {
+          "label": "Community",
+          "value": "Active Wiki"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore PixelLineage Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Navigate through comprehensive guides, verified item databases, class tier lists, combat mechanics, and official community channels.",
       "modules": [
         {
           "order": 1,
-          "name": "PixelLineage Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
+          "name": "PixelLineage Codes",
+          "description": "Active redemption codes, trait rerolls, silver pouches, and verified redemption methods for PixelLineage adventurers.",
           "href": "/codes/pixellineage-codes",
-          "displayType": "code-box",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "REROLL",
+              "detail": "Claim free lineage trait and talent shuffle tokens"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "BOOST",
+              "detail": "Receive 2x EXP scrolls and drop rate charms"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "CURRENCY",
+              "detail": "Stockpile bonus gold pouches and silver bags"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
+          "name": "PixelLineage Beginner Guide",
+          "description": "Essential starter walkthrough covering attribute allocation, safe survival routines, and early-game combat tips.",
           "href": "/guide/pixellineage-beginner-guide",
-          "displayType": "feature-cards",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "1",
+              "detail": "Allocate starter attributes deliberately into Vitality and Endurance"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "2",
+              "detail": "Gather baseline weapons and armor before leaving safe outpost boundaries"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "3",
+              "detail": "Engage low-threat wilderness mobs to practice stamina and posture discipline"
+            },
+            {
+              "label": "4",
+              "detail": "Bank earned silver and secure ancestral traits to safeguard progression"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/pixellineage-tier-list",
+          "name": "PixelLineage Classes and Builds",
+          "description": "Comprehensive rankings of character classes and build archetypes evaluated across PvE dungeons and PvP duels.",
+          "href": "/characters/pixellineage-best-class",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Paladin & Elementalist Mage — Dominant self-sustain and AoE burst"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Shadow Assassin & Marksman Ranger — High single-target DPS and mobility"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Necromancer & Cleric Priest — Specialized pet utility and healing support"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Duelist Skirmisher — High execution complexity requiring precision parries"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/pixellineage-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "PixelLineage Items Guide",
+          "description": "Searchable directory of weapons, defensive armor classifications, and alchemical consumables with key stats.",
+          "href": "/items/pixellineage-items",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "WEAPONS",
+              "detail": "Blades, tomes, and bows with scaling physical and arcane damage"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "ARMOR",
+              "detail": "Plate, leather, and cloth sets balancing defense and stamina regen"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "POTIONS",
+              "detail": "Healing salves, mana elixirs, and restorative alchemical draughts"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/pixellineage-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "PixelLineage Combat Guide",
+          "description": "Tactical breakdown of combat fundamentals including stamina conservation, poise stagger, and attack priority.",
+          "href": "/mechanics/pixellineage-combat",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Stamina",
+              "detail": "Avoid letting stamina drop below 20% to prevent posture break staggers"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Parrying",
+              "detail": "Deflect incoming strikes during startup frames for critical punishes"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Spacing",
+              "detail": "Exploit weapon reach and recovery windows to safely counter enemy whiffs"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/pixellineage-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "PixelLineage Progression Guide",
+          "description": "Structured progression roadmap from Novice spawn to Ultra Mastery with stat training drills.",
+          "href": "/progression/pixellineage-progression",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "1",
+              "detail": "Condition baseline attributes through sparring and terrain navigation"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "2",
+              "detail": "Meet core stat minimums and complete foundational Novice class requirements"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "3",
+              "detail": "Undertake specialized trainer trials to advance into Super Class mastery"
+            },
+            {
+              "label": "4",
+              "detail": "Conquer endgame trials to unlock prestigious Ultra Class capabilities"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "PixelLineage Updates",
+          "description": "Track the latest patches, balance adjustments, class reworks, and developer announcements for PixelLineage.",
+          "href": "/social/pixellineage-official",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Verified balance adjustments and class skill rework announcements"
+            },
+            {
+              "label": "Hotfixes",
+              "detail": "Server stability updates, exploit fixes, and combat bug resolutions"
+            },
+            {
+              "label": "Roadmap",
+              "detail": "Upcoming dungeon expansions, new equipment tiers, and world events"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "PixelLineage Community",
+          "description": "Verified social links, developer hubs, community discussions, and trading platforms for PixelLineage.",
+          "href": "/social/pixellineage-official",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Discord",
+              "detail": "Join verified community channels for announcements and squad coordination"
+            },
+            {
+              "label": "Reddit",
+              "detail": "Participate in theorycrafting builds, sharing clips, and player discussions"
+            },
+            {
+              "label": "Security",
+              "detail": "Follow official verification guidelines to protect your account and items"
             }
           ]
         }
@@ -304,27 +332,27 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about PixelLineage.",
+      "description": "Quick answers to common questions about PixelLineage mechanics, progression, and survival.",
       "items": [
         {
-          "question": "What is PixelLineage?",
-          "answer": "PixelLineage is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is PixelLineage and what type of game is it?",
+          "answer": "PixelLineage is a pixel-art fantasy action RPG combining classic roguelike permadeath mechanics, stamina-based combat, and ancestral progression where fallen adventurers pass perks to future generations."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "What should beginners focus on first in PixelLineage?",
+          "answer": "Beginners in PixelLineage should prioritize allocating early attribute points into Vitality and Endurance for survival, securing basic gear in safe outposts, and learning stamina pacing before taking on dangerous wilderness mobs."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How does character progression work in PixelLineage?",
+          "answer": "Progression in PixelLineage develops organically through physical actions like sparring, sprinting, and casting. Meeting stat thresholds allows you to advance through class ranks from Novice up to Ultra Mastery."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How do I redeem active PixelLineage codes?",
+          "answer": "To redeem PixelLineage codes, open the in-game settings or promo menu via the menu hotkey or gear icon, enter the exact code case-sensitively, and claim rewards such as trait rerolls, gold, and experience boosters."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How punishing is combat and death in PixelLineage?",
+          "answer": "Combat in PixelLineage relies on stamina and poise management, where guard breaks leave you vulnerable. While permadeath resets active character progress, your bloodline preserves unlocked ancestral knowledge and traits."
         }
       ]
     },
