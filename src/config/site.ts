@@ -19,18 +19,17 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
+  name: "PixelLineage Wiki",
+  shortName: "PixelLineage",
+  logoText: "PL",
+  tagline: "Guides, Characters & Updates",
+  description: "Explore PixelLineage Wiki with character guides, gameplay tips, progression information, updates, and useful resources to help players master this pixel fantasy adventure game.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://pixellineage.top",
+  supportEmail: "support@pixellineage.top",
+  gameUrl: "https://pixellineage.top",
   heroVideoId: "HrRBo-0TWDg", // Pixel Lineage official trailer
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    youtube: "https://www.youtube.com/@PixelRBLXs",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
