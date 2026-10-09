@@ -6,18 +6,7 @@
     "description": "Explore PixelLineage Wiki with character guides, gameplay tips, progression information, updates, and useful resources to help players master this pixel fantasy adventure game.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
-  "nav": {
-    "home": "Home",
-    "menu": "Menu",
-    "toggleTheme": "Toggle theme",
-    "guide": "Guide",
-    "progression": "Progression",
-    "characters": "Characters",
-    "mechanics": "Mechanics",
-    "items": "Items",
-    "codes": "Codes",
-    "social": "Social"
-  },
+  "nav": {},
   "home": {
     "meta": {
       "title": "PixelLineage Wiki - Guides, Characters & Updates",
@@ -409,32 +398,11 @@
     "progressionGuides": "Progression Guides",
     "mechanicsGuides": "Game Mechanics"
   },
-  "guide": {
-    "overviewTitle": "PixelLineage Guides",
-    "overviewDescription": "Comprehensive walkthroughs, beginner tips, and tutorial guides for PixelLineage."
-  },
-  "progression": {
-    "overviewTitle": "PixelLineage Progression",
-    "overviewDescription": "Leveling routes, Torment mode survival strategies, and early-to-endgame progression guides for PixelLineage."
-  },
-  "characters": {
-    "overviewTitle": "PixelLineage Characters & Classes",
-    "overviewDescription": "Character overviews, class builds, talent choices, and best class recommendations in PixelLineage."
-  },
-  "mechanics": {
-    "overviewTitle": "PixelLineage Game Mechanics",
-    "overviewDescription": "In-depth breakdowns of combat systems, traits, difficulty modes, and core game mechanics in PixelLineage."
-  },
-  "items": {
-    "overviewTitle": "PixelLineage Items & Equipment",
-    "overviewDescription": "Complete database of weapons, armor, vault storage, drops, and equipment farming in PixelLineage."
-  },
-  "codes": {
-    "overviewTitle": "PixelLineage Codes",
-    "overviewDescription": "Active redeem codes, rewards, and step-by-step redemption instructions for PixelLineage."
-  },
-  "social": {
-    "overviewTitle": "PixelLineage Community & Social",
-    "overviewDescription": "Official community hubs, Discord servers, Reddit forums, and resources for PixelLineage players."
-  }
+  "guide": {},
+  "progression": {},
+  "characters": {},
+  "mechanics": {},
+  "items": {},
+  "codes": {},
+  "social": {}
 }
