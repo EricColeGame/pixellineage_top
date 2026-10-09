@@ -26,11 +26,11 @@ export const siteConfig: SiteConfig = {
   description: "Explore PixelLineage Wiki with character guides, gameplay tips, progression information, updates, and useful resources to help players master this pixel fantasy adventure game.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://pixellineage.top",
   supportEmail: "support@pixellineage.top",
-  gameUrl: "https://pixellineage.top",
+  gameUrl: "https://www.roblox.com/games/126256942507957/Pixel-Lineage",
   heroVideoId: "HrRBo-0TWDg", // Pixel Lineage official trailer
   social: {
     youtube: "https://www.youtube.com/@PixelRBLXs",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "ja", "de", "es"],
   defaultLocale: "en",
 };
